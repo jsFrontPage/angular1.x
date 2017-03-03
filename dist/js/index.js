@@ -1,1 +1,1 @@
-console.log(1),console.log(2);
+"use strict";angular.module("app",["ui.router"]),angular.module("app",["ui.router"]).config(["$stateProvider","$urlRouterProvider",function(r,e){r.state("main",{url:"/main",templateUrl:"view/main.html",controller:"mainCtrl"}),e.otherwise("main")}]),angular.module("app").controller("mainCtrl",["$scope",function(r){}]);

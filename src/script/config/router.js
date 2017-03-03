@@ -1,9 +1,5 @@
 'use strict';
 
-angular.module('app',['ui.router']);
-
-'use strict';
-
 angular.module('app',['ui.router']).config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouterProvider){
   $stateProvider.state('main',{
     url:'/main',
@@ -12,11 +8,5 @@ angular.module('app',['ui.router']).config(['$stateProvider','$urlRouterProvider
   });
   $urlRouterProvider.otherwise('main');
 
-
-}])
-
-'use strict';
-
-angular.module('app').controller('mainCtrl',['$scope',function($scope){
 
 }])
